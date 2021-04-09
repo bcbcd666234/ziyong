@@ -8,7 +8,7 @@ done
 
 ##############################作者昵称（必填）##############################
 # 使用空格隔开
-author_list="qq34347476 i-chenzhe"
+author_list="qq34347476 i-chenzhe monk-coder"
 
 ##############################作者脚本地址URL（必填）##############################
 # 例如：https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.js
@@ -16,15 +16,15 @@ author_list="qq34347476 i-chenzhe"
 # 2.将地址最后的 “脚本名称+后缀” 剪切到下一个变量里（my_scripts_list_xxx）
 # scripts_base_url_1=https://gitee.com/qq34347476/quantumult-x/raw/master/
 scripts_base_url_1=https://raw.githubusercontent.com/qq34347476/js_script/master/scripts/
-scripts_base_url_2=https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/
-scripts_base_url_3=https://raw.githubusercontent.com/i-chenzhe/qx/main/
+scripts_base_url_2=https://raw.githubusercontent.com/bcbcd666234/AutoSyncScript/monk/i-chenzhe/
+scripts_base_url_3=https://github.com/bcbcd666234/AutoSyncScript/blob/monk/normal/
 
 
 ##############################作者脚本名称（必填）##############################
 # 将相应作者的脚本填写到以下变量中
 my_scripts_list_1="format_share_jd_code.js jd_try.js jd_joy_run.js"
-my_scripts_list_2="jd_priceProtect.js"
-my_scripts_list_3="jd_getFanslove.js jd_fanslove.js jd_gjmh.js jd_entertainment.js jd_shake.js jd_shakeBean.js jd_xmf.js z_superDay.js"
+my_scripts_list_2="z_entertainment.js z_fanslove.js z_getFanslove.js z_marketLottery.js z_mother_jump.js z_shake.js z_super5g.js z_xmf.js"
+my_scripts_list_3="monk_inter_shop_sign.js monk_shop_follow_sku.js monk_shop_lottery.js monk_skyworth.js"
 
 
 ##############################随机函数##########################################
@@ -85,7 +85,7 @@ done
 ##############################同步 diy.sh ##########################################
 cd $ConfigDir
 echo -e "开始更新 diy.sh "
-wget -q --no-check-certificate https://raw.githubusercontent.com/qq34347476/js_script/master/diy.sh -O diy.sh.new
+wget -q --no-check-certificate https://raw.githubusercontent.com/bcbcd666234/ziyong/main/diy.sh -O diy.sh.new
 if [ $? -eq 0 ]; then
   mv -f diy.sh.new diy.sh
   echo -e "更新 diy.sh 完成"
