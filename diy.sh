@@ -39,8 +39,16 @@ rand(){
 
 cd $ScriptsDir
 # 清理过期脚本
-rm -rf ZCY01_jd_try.js
-rm -rf i-chenzhe_jd_asus_iqiyi.js
+rm -rf jd_priceProtect.js
+rm -rf jd_getFanslove.js
+rm -rf jd_fanslove.js
+rm -rf jd_gjmh.js
+rm -rf jd_entertainment.js
+rm -rf jd_shake.js
+rm -rf jd_shakeBean.js
+rm -rf jd_xmf.js
+rm -rf z_superDay.js
+
 
 # 下载脚本
 index=1
