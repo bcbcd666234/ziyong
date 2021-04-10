@@ -17,7 +17,7 @@ author_list="qq34347476 i-chenzhe monk-coder"
 # scripts_base_url_1=https://gitee.com/qq34347476/quantumult-x/raw/master/
 scripts_base_url_1=https://raw.githubusercontent.com/qq34347476/js_script/master/scripts/
 scripts_base_url_2=https://raw.githubusercontent.com/bcbcd666234/AutoSyncScript/monk/i-chenzhe/
-scripts_base_url_3=https://github.com/bcbcd666234/AutoSyncScript/blob/monk/normal/
+scripts_base_url_3=https://raw.githubusercontent.com/bcbcd666234/AutoSyncScript/monk/normal/
 
 
 ##############################作者脚本名称（必填）##############################
